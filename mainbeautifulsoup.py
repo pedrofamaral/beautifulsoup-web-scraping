@@ -5,7 +5,7 @@ from pymongo import MongoClient
 import sys
 
 # Send a GET request to the URL
-response = requests.get('https://www.hostinger.com/tutorials/how-to-run-a-python-script-in-linux')
+response = requests.get('https://www.twitch.tv/gaules')
 
 # Parse the HTML content using BeautifulSoup
 soup = BeautifulSoup(response.text, 'html.parser')
